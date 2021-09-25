@@ -32,15 +32,15 @@ function SemanticReact() {
         <Button basic color="orange" content="Orange" />
         <Button basic color="yellow" content="Yellow" />
         <Button basic color="olive" content="Olive" />
-        <Button basic color="green" content="Green" />
-        <Button basic color="teal" content="Teal" />
-        <Button basic color="blue" content="Blue" />
-        <Button basic color="violet" content="Violet" />
-        <Button basic color="purple" content="Purple" />
-        <Button basic color="pink" content="Pink" />
-        <Button basic color="brown" content="Brown" />
-        <Button basic color="grey" content="Grey" />
-        <Button basic color="black" content="Black" />
+        <Button basic size="massive" color="green" content="Green" />
+        <Button basic size="huge" color="teal" content="Teal" />
+        <Button basic size="big" color="blue" content="Blue" />
+        <Button basic size="large" color="violet" content="Violet" />
+        <Button basic size="medium" color="purple" content="Purple" />
+        <Button basic size="small" color="pink" content="Pink" />
+        <Button basic size="tiny" color="brown" content="Brown" />
+        <Button basic size="mini" color="grey" content="Grey" />
+        <Button basic loading color="black" content="Black" />
 
         <hr />
 
