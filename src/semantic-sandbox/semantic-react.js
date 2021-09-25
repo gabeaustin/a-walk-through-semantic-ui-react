@@ -41,6 +41,11 @@ function SemanticReact() {
         <Button basic color="brown" content="Brown" />
         <Button basic color="grey" content="Grey" />
         <Button basic color="black" content="Black" />
+
+        <hr />
+
+        <Button active>Active</Button>
+        <Button disabled>Disabled</Button>
       </Container>
     </div>
   );
