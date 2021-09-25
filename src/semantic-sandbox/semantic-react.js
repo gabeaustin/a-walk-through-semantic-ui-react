@@ -46,6 +46,17 @@ function SemanticReact() {
 
         <Button active>Active</Button>
         <Button disabled>Disabled</Button>
+
+        <hr />
+
+        <Button basic color="pink">
+          Read More
+        </Button>
+
+        <hr />
+
+        <Header as="h3">Same as block-level button in Bootstrap</Header>
+        <Button fluid>Fits to Container</Button>
       </Container>
     </div>
   );
