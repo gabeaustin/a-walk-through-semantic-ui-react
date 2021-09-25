@@ -8,13 +8,24 @@ import {
   Label,
   Form,
   Divider,
+  Breadcrumb,
 } from "semantic-ui-react";
 
 function SemanticReact() {
+  const sections = [
+    { key: "Home", content: "Home", link: true },
+    { key: "Store", content: "Store", link: true },
+    { key: "Shirt", content: "T-Shirt", active: true },
+  ];
+
   return (
     <div>
       <Container>
         <Header as="h1">Semantic React Sandbox</Header>
+
+        <hr />
+
+        <Breadcrumb icon="right angle" sections={sections} />
 
         <hr />
 
@@ -85,6 +96,8 @@ function SemanticReact() {
           </Form.Field>
           <Divider />
         </Form>
+
+        <hr />
       </Container>
     </div>
   );
