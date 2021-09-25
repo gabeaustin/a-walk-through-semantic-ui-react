@@ -1,6 +1,14 @@
 import React from "react";
 // import ReactDOM from "react-dom";
-import { Header, Container, Button } from "semantic-ui-react";
+import {
+  Header,
+  Container,
+  Button,
+  Icon,
+  Label,
+  Form,
+  Divider,
+} from "semantic-ui-react";
 
 function SemanticReact() {
   return (
@@ -57,6 +65,26 @@ function SemanticReact() {
 
         <Header as="h3">Same as block-level button in Bootstrap</Header>
         <Button fluid>Fits to Container</Button>
+
+        <hr />
+
+        <Button icon>
+          <Icon name="recycle" />
+        </Button>
+
+        <hr />
+
+        <Label as="a" content="Mail" icon="mail" />
+
+        <hr />
+
+        <Form>
+          <Form.Field inline>
+            <input type="text" placeholder="Username" />
+            <Label pointing="left">Enter a value</Label>
+          </Form.Field>
+          <Divider />
+        </Form>
       </Container>
     </div>
   );
