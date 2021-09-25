@@ -5,6 +5,20 @@ function GridSemanticUI() {
   return (
     <div>
       <Grid>
+        <Grid.Row>
+          <Grid.Column>
+            <Button huge></Button>
+          </Grid.Column>
+          <Grid.Column>
+            <Button huge></Button>
+          </Grid.Column>
+          <Grid.Column>
+            <Button huge></Button>
+          </Grid.Column>
+          <Grid.Column>
+            <Button huge></Button>
+          </Grid.Column>
+        </Grid.Row>
         <Grid.Column>
           <Button huge></Button>
         </Grid.Column>
@@ -41,17 +55,22 @@ function GridSemanticUI() {
         <Grid.Column>
           <Button huge></Button>
         </Grid.Column>
+      </Grid>
+      <Grid>
         <Grid.Column>
-          <Button huge></Button>
+          <Button primary columns="four" size="huge" wide fluid></Button>
         </Grid.Column>
         <Grid.Column>
-          <Button huge></Button>
+          <Button primary fluid></Button>
         </Grid.Column>
         <Grid.Column>
-          <Button huge></Button>
+          <Button primary fluid></Button>
         </Grid.Column>
         <Grid.Column>
-          <Button huge></Button>
+          <Button primary fluid></Button>
+        </Grid.Column>
+        <Grid.Column>
+          <Button primary fluid></Button>
         </Grid.Column>
       </Grid>
     </div>
