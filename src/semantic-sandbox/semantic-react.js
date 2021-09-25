@@ -9,6 +9,7 @@ import {
   Form,
   Divider,
   Breadcrumb,
+  Segment,
 } from "semantic-ui-react";
 
 function SemanticReact() {
@@ -98,6 +99,13 @@ function SemanticReact() {
         </Form>
 
         <hr />
+
+        <Segment>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
+          corporis voluptatibus laboriosam veritatis dolore ipsum fugiat
+          voluptatem cumque nulla ad quibusdam quam cum, expedita aspernatur
+          dolores beatae natus perspiciatis ut!
+        </Segment>
       </Container>
     </div>
   );
